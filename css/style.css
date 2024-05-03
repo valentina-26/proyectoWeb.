@@ -27,17 +27,18 @@ header{
     font-family: "Poppins";
 }
 
-.menu:hover{
+/* .menu:hover{
     display: flex;
     color: white;
     gap: 15px;
     border-color:rgb(70, 173, 125) ;
     
-}
+} */
 
 .Full{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 70px;
     /* background:lightblue; */
 }
 
@@ -72,3 +73,34 @@ button{
     width: 600px;
     height: 50vh;
 }
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+.one img{
+
+}
+.two h4{
+    font-size: 1.5rem;
+    color:rgb(235, 66, 0); ;
+}
+
+.two h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.two p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+button{
+    background: rgb(235, 66, 0);
+    color: white;
+    font-family: "Poppins";
+    width: 120px;
+    height: 3vh;
+}
+
