@@ -1,6 +1,11 @@
 
---color--1:rgb(235, 66, 0);
+:root{
+    --color--1:rgb(235, 66, 0);
+    --color--2:#FFFFFF;
+    --color--3:rgb(11, 8, 34);
+    --color--4:rgb(248, 238, 221);
 
+}
 @font-face {
     font-family: "Poppins";
     src: url(/storage/fonts/Poppins-Italic.ttf);
