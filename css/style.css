@@ -1,0 +1,74 @@
+@import url(variables.css);
+
+body{
+    background: rgb(8, 6, 24);
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Foods h3{
+    color: rgb(235, 66, 0);
+    font-size: 4rem;
+}
+
+.menu{
+    display: flex;
+    color: white;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+.menu p{
+    font-family: "Poppins";
+}
+
+.menu:hover{
+    display: flex;
+    color: white;
+    gap: 15px;
+    border-color:rgb(70, 173, 125) ;
+    
+}
+
+.Full{
+    display: flex;
+    justify-content: space-around;
+    /* background:lightblue; */
+}
+
+.Full h1{
+    color:rgb(235, 66, 0) ;
+    font-size: 4rem;
+    font-family:"Poppins" ;
+    margin-bottom: -10px;
+}
+
+.Full p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+button{
+    background: rgb(235, 66, 0);
+    color:white;
+    width: 110px;
+    height: 3vh;
+    font-family:"Poppins" ;
+}
+
+.site1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    
+}
+
+.site2 img{
+    width: 600px;
+    height: 50vh;
+}
