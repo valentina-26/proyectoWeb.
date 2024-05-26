@@ -14,30 +14,31 @@ header{
 .Foods h3{
     color:var(--color--1);
     font-size: 4rem;
+    margin-top: 9%;
 }
 
-.menu{
+.menu {
     display: flex;
-    color: var( --color--2);
+    color: var(--color--2);
     gap: 30px;
     font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.menu p:hover {
+    color: var(--color--1);
+    margin-left: 5px;
 }
 
 .menu p{
     font-family: "Poppins";
 }
 
-/* .menu:hover{
-    display: flex;
-    color: white;
-    gap: 15px;
-    border-color:rgb(70, 173, 125) ;
-    
-} */
 
 .Full{
     display: flex;
     justify-content: space-around;
+    margin-top: 10px; 
     margin-bottom: 70px;
     /* background:lightblue; */
 }
@@ -57,10 +58,18 @@ header{
 button{
     background: var(--color--1);
     color:var( --color--2);
-    border-color: var(--color--3);
-    width: 110px;
-    height: 3vh;
+    border-color: var(--color--1);
+    width: 150px;
+    height: 13vh;
     font-family:"Poppins" ;
+    border-radius: 30px;
+    
+}
+
+button:hover {
+    background: var(--color--2);
+    color: var(--color--1);
+    border-color: var(--color--2);
 }
 
 .site1{
@@ -234,6 +243,7 @@ button{
     margin-left: 10%;
     text-align: center;
     border-style: dotted;
+    margin-bottom: 30px;
 
 }
 
@@ -251,6 +261,8 @@ button{
 .box {
     display: flex;
     justify-content: space-around;
+    margin-left: 20%;
+
 }
 
 .box1 h4{
@@ -283,6 +295,107 @@ button{
 
 .box4 p{
     color: var(--color--2);
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Foods h3 {
+        font-size: 2.5rem;
+        margin-top: 2%;
+    }
+
+    .Full {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .Full h1 {
+        font-size: 2.5rem;
+    }
+
+    .Full p {
+        font-size: 1.2rem;
+    }
+
+    .site2 img {
+        margin-top: 30px;
+        width: 97%;
+        height: auto;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .two h2 {
+        font-size: 2.5rem;
+    }
+
+    .about .two p {
+        font-size: 1.2rem;
+    }
+
+    .one img{
+        width: 97%;
+    }
+
+    .train {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contain {
+        width: 95%;
+        padding: 20px;
+    }
+
+  
+
+    .other {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .make {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .make h1 {
+        font-size: 2rem;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
 }
 
 
